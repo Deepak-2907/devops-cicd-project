@@ -126,7 +126,7 @@ How to Run This Project:
 
 Then open in browser:
 
-http://16.171.23.102:8081
+http://16.171.23.102
 
 Key Learnings:
 
