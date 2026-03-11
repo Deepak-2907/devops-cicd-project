@@ -61,12 +61,6 @@ devops-cicd-project
 ├── Dockerfile
 ├── Jenkinsfile
 ├── README.md
-│
-└── screenshots
-     ├── jenkins-pipeline-success.png
-     ├── github-webhook.png
-     ├── jenkins-console.png
-     └── app-running.png
 
 ## Project Screenshots
 
