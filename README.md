@@ -68,6 +68,20 @@ devops-cicd-project
      ├── jenkins-console.png
      └── app-running.png
 
+## Project Screenshots
+
+### Jenkins Pipeline Success
+![Pipeline](screenshots/jenkins-pipeline-success.png)
+
+### GitHub Webhook Configuration
+![Webhook](screenshots/github-webhook.png)
+
+### Jenkins Console Output
+![Console](screenshots/jenkins-console.png)
+
+### Application Running on AWS EC2
+![App](screenshots/app-running.png)
+
 Jenkins Pipeline
 
 Example Jenkins pipeline used in this project:
