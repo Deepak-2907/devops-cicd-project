@@ -1,18 +1,18 @@
-CI/CD Pipeline using Jenkins, Docker, and AWS
-Project Overview
+## CI/CD Pipeline using Jenkins, Docker, and AWS
+## PROJECT OVERVIEW
 
 This project demonstrates an end-to-end CI/CD pipeline where code pushed to GitHub automatically triggers Jenkins to build and deploy the application using Docker on an AWS EC2 instance.
 
 The objective of this project is to understand DevOps automation, continuous integration, and continuous deployment using industry-standard tools.
 
-Architecture
+## Architecture
 
 Developer pushes code to GitHub which triggers Jenkins via webhook.  
 Jenkins builds a Docker image and deploys it to an AWS EC2 instance.
 
 ![Architecture](https://github.com/Deepak-2907/devops-cicd-project/blob/3ea1c46a7106ffaeee429f802ad5f4e9d64c429a/Architecture.PNG)
 
-Tech Stack:
+## Tech Stack:
 
 ->Git
 ->GitHub
@@ -21,35 +21,27 @@ Tech Stack:
 ->AWS EC2
 ->Linux
 
-Project Workflow:
+## Project Workflow:
 
-1. Code Commit
+## 1. Code Commit
 
 Developer pushes application code to the GitHub repository.
 
-2. Webhook Trigger
+## 2. Webhook Trigger
 
 GitHub webhook triggers Jenkins automatically.
 
-3. Jenkins Pipeline Execution
+## 3. Jenkins Pipeline Execution
 
 Jenkins pulls the latest code from the repository.
 
-4. Docker Build
+## 4. Docker Build
 
 Jenkins builds a Docker image for the application.
 
-5. Deployment
+## 5. Deployment
 
 Docker container runs on the AWS EC2 instance.
-
-Repository Structure:
-devops-cicd-project
-│
-├── index.html
-├── Dockerfile
-├── Jenkinsfile
-├── README.md
 
 ## Project Screenshots
 
@@ -65,7 +57,21 @@ devops-cicd-project
 ### Application Running on AWS EC2
 ![App](https://github.com/Deepak-2907/devops-cicd-project/blob/b1b873164908341454730f4a13edd0ee1cb3c41c/app-running.PNG)
 
-Jenkins Pipeline
+## Jenkins Pipeline Stages
+
+1️⃣ **Clone Stage**
+- Jenkins pulls latest code from GitHub
+
+2️⃣ **Build Stage**
+- Docker image is built using Dockerfile
+
+3️⃣ **Deploy Stage**
+- Docker container runs on AWS EC2
+
+4️⃣ **Verification Stage**
+- Application becomes available via EC2 public IP
+
+## Jenkins Pipeline
 
 Example Jenkins pipeline used in this project:
 
@@ -94,11 +100,11 @@ pipeline {
     }
 }
 
-Dockerfile:
+## Dockerfile:
 FROM nginx:latest
 COPY index.html /usr/share/nginx/html/index.html
 
-How to Run This Project:
+## How to Run This Project:
 
 ->Clone the repository
 ->git clone https://github.com/Deepak-2907/devops-cicd-project.git
@@ -111,7 +117,7 @@ Then open in browser:
 
 http://16.171.23.102
 
-Key Learnings:
+## Key Learnings:
 
 ->Implemented CI/CD pipeline using Jenkins
 
@@ -123,7 +129,24 @@ Key Learnings:
 
 ->Automated build and deployment process
 
-Future Improvements:
+ ## DevOps Concepts Used
+
+- Continuous Integration (CI)
+- Continuous Deployment (CD)
+- Infrastructure Automation
+- Containerization
+- GitOps Workflow
+- Cloud Deployment
+
+## Project Motivation
+
+As someone transitioning into DevOps with a background in networking,
+I wanted to understand how modern teams automate software delivery.
+
+This project helped me implement a real CI/CD pipeline that automatically
+builds and deploys applications using Jenkins, Docker, and AWS.
+
+## Future Improvements:
 
 ->Deploy application using Kubernetes
 
@@ -131,7 +154,7 @@ Future Improvements:
 
 ->Add automated testing stage in Jenkins pipeline
 
-AUTHOR
+## AUTHOR
 
-Deepak Kumar
+## Deepak Kumar
 DevOps Enthusiast | Networking Engineer
