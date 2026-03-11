@@ -7,7 +7,8 @@ The objective of this project is to understand DevOps automation, continuous int
 
 Architecture
 
-Developer pushes code → GitHub → Jenkins Pipeline → Docker Build → AWS EC2 Deployment
+Developer pushes code to GitHub which triggers Jenkins via webhook.  
+Jenkins builds a Docker image and deploys it to an AWS EC2 instance.
 
 ![Architecture](https://github.com/Deepak-2907/devops-cicd-project/blob/3ea1c46a7106ffaeee429f802ad5f4e9d64c429a/Architecture.PNG)
 
