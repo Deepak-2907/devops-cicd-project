@@ -9,19 +9,7 @@ Architecture
 
 Developer pushes code → GitHub → Jenkins Pipeline → Docker Build → AWS EC2 Deployment
 
-Developer
-   │
-   ▼
-GitHub Repository
-   │  (Webhook Trigger)
-   ▼
-Jenkins Pipeline
-   │
-   ▼
-Docker Build & Run
-   │
-   ▼
-AWS EC2 Instance
+![Architecture](https://github.com/Deepak-2907/devops-cicd-project/blob/3ea1c46a7106ffaeee429f802ad5f4e9d64c429a/Architecture.PNG)
 
 Tech Stack:
 
