@@ -77,7 +77,7 @@ devops-cicd-project
 ![Webhook](https://github.com/Deepak-2907/devops-cicd-project/blob/0ffee18a8e904efed31ab395ba36dab9f3fd996e/github-webhook.PNG)
 
 ### Jenkins Console Output
-![Console](screenshots/jenkins-console.png)
+![Console]([screenshots/jenkins-console.png](https://github.com/Deepak-2907/devops-cicd-project/blob/25b13838076a730f841bb6f5efc9cf22d8bc68bd/jenkins-console.PNG))
 
 ### Application Running on AWS EC2
 ![App](screenshots/app-running.png)
