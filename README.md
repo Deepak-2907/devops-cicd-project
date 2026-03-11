@@ -80,7 +80,7 @@ devops-cicd-project
 ![Console](https://github.com/Deepak-2907/devops-cicd-project/blob/25b13838076a730f841bb6f5efc9cf22d8bc68bd/jenkins-console.PNG)
 
 ### Application Running on AWS EC2
-![App](screenshots/app-running.png)
+![App](https://github.com/Deepak-2907/devops-cicd-project/blob/b1b873164908341454730f4a13edd0ee1cb3c41c/app-running.PNG)
 
 Jenkins Pipeline
 
