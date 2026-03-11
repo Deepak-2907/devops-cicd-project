@@ -71,7 +71,7 @@ devops-cicd-project
 ## Project Screenshots
 
 ### Jenkins Pipeline Success
-![Pipeline](screenshots/jenkins-pipeline-success.png)
+![pipeline](https://github.com/Deepak-2907/devops-cicd-project/blob/16ee90b213fb05b39d5d97be1249a27e0adce2d3/Jenkins%20pipeline%20success.PNG)
 
 ### GitHub Webhook Configuration
 ![Webhook](screenshots/github-webhook.png)
